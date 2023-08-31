@@ -14,3 +14,7 @@ Install the necessary dependencies:
 
 ## Run
 Once repository is cloned locally, go to the project directory and run ```gradio customLLM.py```. The terminal will then return the addresses gradio is hosting on.
+
+
+## WIP
+- Using chainlit to create a UI for the chatbot.
