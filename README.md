@@ -15,6 +15,13 @@ Install the necessary dependencies:
 ## Run
 Once repository is cloned locally, go to the project directory and run ```gradio customLLM.py```. The terminal will then return the addresses gradio is hosting on.
 
+## Attention
+If you encounter the error: 
+
+```ImportError: cannot import name 'BaseLanguageModel' from 'langchain.schema'```
+
+Then you will need to change ```from langchain.schema import BaseLanguageModel``` to ```from langchain.base_language import BaseLanguageModel``` in the base.py file of your gpt-index directory.
+
 
 ## WIP
 - Using chainlit to create a UI for the chatbot.
