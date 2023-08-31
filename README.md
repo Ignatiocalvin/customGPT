@@ -22,6 +22,8 @@ If you encounter the error:
 
 Then you will need to change ```from langchain.schema import BaseLanguageModel``` to ```from langchain.base_language import BaseLanguageModel``` in the base.py file of your gpt-index directory.
 
+This is a result of an error from a callbacks refactor which has been updated in llama-index.
+
 
 ## WIP
 - Using chainlit to create a UI for the chatbot.
